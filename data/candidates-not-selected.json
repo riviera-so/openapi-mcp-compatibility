@@ -1,0 +1,65 @@
+{
+  "note": "Considered for the SaaS cohort and not selected. Not analyzed.",
+  "candidates": [
+    {
+      "id": "calcom-v2",
+      "provider": "Cal.com API v2",
+      "source_url": "https://raw.githubusercontent.com/calcom/cal.com/54343aa685ae8f33159d2f485ec4a57bad5c574a/docs/api-reference/v2/openapi.json",
+      "sha256": "cac5ec02a46bfcb9a2cdab8263e778a0dc61cc6b2cd4ffddc04639ddf8987e65",
+      "bytes": 559988,
+      "operations": 121,
+      "reason_not_selected": [
+        "C5: declares no HTTP bearer or header API key scheme"
+      ],
+      "analyzed": false
+    },
+    {
+      "id": "fusionauth",
+      "provider": "FusionAuth",
+      "source_url": "https://raw.githubusercontent.com/fusionauth/fusionauth-openapi/9c53ee33807cd19da3e3ee05edc764b2e27335b6/openapi.yaml",
+      "sha256": "7e443678df51193c86f5e810fb8e4458fb758e622a0502d0c2512cbba322533f",
+      "bytes": 617204,
+      "operations": 347,
+      "reason_not_selected": [
+        "C3: 347 operations, outside 10 to 200"
+      ],
+      "analyzed": false
+    },
+    {
+      "id": "lago",
+      "provider": "Lago",
+      "source_url": "https://raw.githubusercontent.com/getlago/lago-openapi/7ede8a12ded64ae0fd99f1557e1a9c525c20f109/openapi.yaml",
+      "sha256": "59044919a5bd89dffa13e01da92193512197295fbda52ab6afb044eb58437917",
+      "bytes": 1038136,
+      "operations": 217,
+      "reason_not_selected": [
+        "C3: 217 operations, outside 10 to 200"
+      ],
+      "analyzed": false
+    },
+    {
+      "id": "clerk",
+      "provider": "Clerk Backend API",
+      "source_url": "https://raw.githubusercontent.com/clerk/openapi-specs/3b078e5e0c17ad5261f06cb00e0a0943614dacb0/bapi/2024-10-01.yml",
+      "sha256": "0278b3fc4f67f64d98ebdf8228f84f2af698bdd21e79c813bbac0995678aed6b",
+      "bytes": 675170,
+      "operations": 221,
+      "reason_not_selected": [
+        "C3: 221 operations, outside 10 to 200"
+      ],
+      "analyzed": false
+    },
+    {
+      "id": "front",
+      "provider": "Front Core API",
+      "source_url": "https://raw.githubusercontent.com/frontapp/front-api-specs/6ecd212087403904073b36993693df1901b449b2/core-api/core-api.json",
+      "sha256": "a4a9dfed77196f7d3ada67cf1786b285000e1eb9dda305c3a3dce1250ff2a934",
+      "bytes": 508431,
+      "operations": 246,
+      "reason_not_selected": [
+        "C3: 246 operations, outside 10 to 200"
+      ],
+      "analyzed": false
+    }
+  ]
+}

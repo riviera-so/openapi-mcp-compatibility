@@ -1,0 +1,38 @@
+{
+  "saas-cohort": {
+    "as-published": {
+      "documents": 7,
+      "accepted": 6,
+      "documents_with_tools": 3,
+      "operations_in_document": 538,
+      "operations_identified": 479,
+      "converted": 124
+    },
+    "documented-preparation": {
+      "documents": 7,
+      "accepted": 7,
+      "documents_with_tools": 3,
+      "operations_in_document": 538,
+      "operations_identified": 538,
+      "converted": 124
+    }
+  },
+  "exploratory": {
+    "as-published": {
+      "documents": 6,
+      "accepted": 4,
+      "documents_with_tools": 0,
+      "operations_in_document": 687,
+      "operations_identified": 82,
+      "converted": 0
+    },
+    "documented-preparation": {
+      "documents": 5,
+      "accepted": 5,
+      "documents_with_tools": 0,
+      "operations_in_document": 282,
+      "operations_identified": 282,
+      "converted": 0
+    }
+  }
+}

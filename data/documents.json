@@ -1,0 +1,220 @@
+{
+  "generated_from": "Analysis records of the importer run of 11 October 2026",
+  "note": "URLs, hashes and facts only. No specification text is included.",
+  "documents": [
+    {
+      "id": "svix",
+      "set": "saas-cohort",
+      "provider": "Svix",
+      "source_url": "https://raw.githubusercontent.com/svix/svix-webhooks/ae6b40db923f8182756e03b982000035412cb47a/server/openapi.json",
+      "pinned_to_commit": "ae6b40db923f8182756e03b982000035412cb47a",
+      "sha256": "aabd08dc1ba56a5dc3e1888143929caf496ddc2259c42daefcc174f39ac7f53a",
+      "bytes": 296543,
+      "format": "json",
+      "openapi_version": "3.0.2",
+      "operations_in_document": 44,
+      "declared_authentication": [
+        "http bearer"
+      ],
+      "licence_as_recorded": "MIT (repository licence, as reported by GitHub on 11 October 2026)"
+    },
+    {
+      "id": "unkey",
+      "set": "saas-cohort",
+      "provider": "Unkey",
+      "source_url": "https://raw.githubusercontent.com/unkeyed/unkey/d00fc71f507640eb1cdddef4ca7f8eda773a8cd9/svc/api/openapi/openapi-generated.yaml",
+      "pinned_to_commit": "d00fc71f507640eb1cdddef4ca7f8eda773a8cd9",
+      "sha256": "c16a030718afce144f187ee6ffec11371f072c280f34ba01827294cb9dbb7c54",
+      "bytes": 939432,
+      "format": "yaml",
+      "openapi_version": "3.1.0",
+      "operations_in_document": 100,
+      "declared_authentication": [
+        "apiKey in cookie",
+        "http bearer"
+      ],
+      "licence_as_recorded": "None detected in the document. GitHub reports no single SPDX licence for the repository (checked 11 October 2026)"
+    },
+    {
+      "id": "novu",
+      "set": "saas-cohort",
+      "provider": "Novu",
+      "source_url": "https://raw.githubusercontent.com/novuhq/novu/c4d3eda128c0a2da19c5b674305bdebd0deccb62/apps/api/swagger-spec.json",
+      "pinned_to_commit": "c4d3eda128c0a2da19c5b674305bdebd0deccb62",
+      "sha256": "2f15679db6aa96bf85be22d2eb6b05ca0600ffce653c45f5331d4bac77d45d56",
+      "bytes": 1109750,
+      "format": "json",
+      "openapi_version": "3.0.0",
+      "operations_in_document": 59,
+      "declared_authentication": [
+        "apiKey in header",
+        "http bearer"
+      ],
+      "licence_as_recorded": "MIT"
+    },
+    {
+      "id": "resend",
+      "set": "saas-cohort",
+      "provider": "Resend",
+      "source_url": "https://raw.githubusercontent.com/resend/resend-openapi/8916b099d7f52b8552a2e1ef38a7f16fcd17864c/resend.yaml",
+      "pinned_to_commit": "8916b099d7f52b8552a2e1ef38a7f16fcd17864c",
+      "sha256": "d75e4e44f9fa0a70e26506998c1ed57f9e3b1a4bd38691bbcc67776894ceff4a",
+      "bytes": 245813,
+      "format": "yaml",
+      "openapi_version": "3.1.2",
+      "operations_in_document": 113,
+      "declared_authentication": [
+        "http bearer"
+      ],
+      "licence_as_recorded": "MIT (repository licence, as reported by GitHub on 11 October 2026)"
+    },
+    {
+      "id": "formbricks",
+      "set": "saas-cohort",
+      "provider": "Formbricks",
+      "source_url": "https://raw.githubusercontent.com/formbricks/formbricks/2c5c3b104bfccabc44c2460e2488eac14d8910c9/docs/api-v2-reference/openapi.yml",
+      "pinned_to_commit": "2c5c3b104bfccabc44c2460e2488eac14d8910c9",
+      "sha256": "1cac4c8f314ed18460306ded1b0edb93e51a5591896c090af71424ac2f10a9d0",
+      "bytes": 218528,
+      "format": "yaml",
+      "openapi_version": "3.1.0",
+      "operations_in_document": 40,
+      "declared_authentication": [
+        "apiKey in header"
+      ],
+      "licence_as_recorded": "None detected in the document. GitHub reports no single SPDX licence for the repository (checked 11 October 2026)"
+    },
+    {
+      "id": "intercom",
+      "set": "saas-cohort",
+      "provider": "Intercom",
+      "source_url": "https://raw.githubusercontent.com/intercom/Intercom-OpenAPI/73332394d9913db5c0bafebafc9f62375b9800e6/descriptions/2.11/api.intercom.io.yaml",
+      "pinned_to_commit": "73332394d9913db5c0bafebafc9f62375b9800e6",
+      "sha256": "41c83541883c96f5400f5731cf10e6898641c68fc9984256f866fe4f721d37c6",
+      "bytes": 710787,
+      "format": "yaml",
+      "openapi_version": "3.0.1",
+      "operations_in_document": 108,
+      "declared_authentication": [
+        "http bearer"
+      ],
+      "licence_as_recorded": "MIT"
+    },
+    {
+      "id": "hellosign",
+      "set": "saas-cohort",
+      "provider": "Dropbox Sign",
+      "source_url": "https://raw.githubusercontent.com/hellosign/hellosign-openapi/f7f2ad4ff87eb222b0965957fe5f4a550e1b410d/openapi.yaml",
+      "pinned_to_commit": "f7f2ad4ff87eb222b0965957fe5f4a550e1b410d",
+      "sha256": "d1d9b4ddee8dbbf1b4881d48d42f0db2a67ff42245697ace8480f35ca52722aa",
+      "bytes": 609458,
+      "format": "yaml",
+      "openapi_version": "3.0.3",
+      "operations_in_document": 74,
+      "declared_authentication": [
+        "http basic",
+        "http bearer"
+      ],
+      "licence_as_recorded": "MIT"
+    },
+    {
+      "id": "petstore-3.0",
+      "set": "exploratory",
+      "provider": "Swagger Petstore (SmartBear, swagger-api/swagger-petstore)",
+      "source_url": "https://petstore3.swagger.io/api/v3/openapi.json",
+      "pinned_to_commit": null,
+      "sha256": "00441c05add60f28da55eb4563d3fb6bbda364ba8eb7b381e2e2c98613005c82",
+      "bytes": 17106,
+      "format": "json",
+      "openapi_version": "3.0.4",
+      "operations_in_document": 19,
+      "declared_authentication": [
+        "apiKey in header",
+        "oauth2"
+      ],
+      "licence_as_recorded": "Apache-2.0, declared in the document's info.license"
+    },
+    {
+      "id": "petstore-3.1",
+      "set": "exploratory",
+      "provider": "Swagger Petstore, OpenAPI 3.1 edition (SmartBear, swagger-api/swagger-petstore)",
+      "source_url": "https://petstore31.swagger.io/api/v31/openapi.json",
+      "pinned_to_commit": null,
+      "sha256": "b493226aa87181e5de361eb453a2daedd869b715b9112a9cd9a73ea362882409",
+      "bytes": 10896,
+      "format": "json",
+      "openapi_version": "3.1.0",
+      "operations_in_document": 3,
+      "declared_authentication": [
+        "apiKey in header",
+        "mutualTLS",
+        "oauth2"
+      ],
+      "licence_as_recorded": "Apache-2.0, declared in the document's info.license"
+    },
+    {
+      "id": "sendgrid-mail-v3",
+      "set": "exploratory",
+      "provider": "Twilio SendGrid, Mail API v3 (twilio/sendgrid-oai)",
+      "source_url": "https://raw.githubusercontent.com/twilio/sendgrid-oai/fb95a935c87b79f7f982ac34bd37adab1f697dbc/spec/json/tsg_mail_v3.json",
+      "pinned_to_commit": "fb95a935c87b79f7f982ac34bd37adab1f697dbc",
+      "sha256": "4ba24d0feb8a6b347f60528161d1cf0e7591987d2b3a64a6533685dc2b39d19f",
+      "bytes": 54706,
+      "format": "json",
+      "openapi_version": "3.1.0",
+      "operations_in_document": 3,
+      "declared_authentication": [
+        "http bearer"
+      ],
+      "licence_as_recorded": "MIT, declared in the document's info.license (and the repository licence)"
+    },
+    {
+      "id": "twilio-verify-v2",
+      "set": "exploratory",
+      "provider": "Twilio, Verify API v2 (twilio/twilio-oai)",
+      "source_url": "https://raw.githubusercontent.com/twilio/twilio-oai/141f1201b55abcc16b3aa8089e71c4a927326975/spec/json/twilio_verify_v2.json",
+      "pinned_to_commit": "141f1201b55abcc16b3aa8089e71c4a927326975",
+      "sha256": "bee888a5f4c53e422604cafbd610ffe23b46db5789dab9ef516980a188e480bb",
+      "bytes": 499392,
+      "format": "json",
+      "openapi_version": "3.0.1",
+      "operations_in_document": 57,
+      "declared_authentication": [
+        "http basic",
+        "http bearer"
+      ],
+      "licence_as_recorded": "Apache-2.0, declared in the document's info.license (repository licence MIT)"
+    },
+    {
+      "id": "discord-http-v10",
+      "set": "exploratory",
+      "provider": "Discord, HTTP API (discord/discord-api-spec)",
+      "source_url": "https://raw.githubusercontent.com/discord/discord-api-spec/1ff2dee3677fabef7b49f942bbae93d06c0c9f2c/specs/openapi.json",
+      "pinned_to_commit": "1ff2dee3677fabef7b49f942bbae93d06c0c9f2c",
+      "sha256": "7fd37d558c01b7a1a16287bd31cb2b65abfaa372c18e912dc67fbeead5e23653",
+      "bytes": 1192427,
+      "format": "json",
+      "openapi_version": "3.1.0",
+      "operations_in_document": 246,
+      "declared_authentication": [
+        "apiKey in header",
+        "oauth2"
+      ],
+      "licence_as_recorded": "MIT, declared in the document's info.license"
+    },
+    {
+      "id": "openai-api",
+      "set": "exploratory",
+      "provider": "OpenAI API (openai/openai-openapi)",
+      "source_url": "https://raw.githubusercontent.com/openai/openai-openapi/e95c0fe615f45a19e8878af923a729948445a6bd/openapi.yaml",
+      "pinned_to_commit": "e95c0fe615f45a19e8878af923a729948445a6bd",
+      "sha256": "8f037f570565278e84c57ef1f1777c1c8ede954da7b428d70ec93dc294781ba7",
+      "bytes": 4058614,
+      "format": "yaml",
+      "openapi_version": "3.1.0",
+      "operations_in_document": 359,
+      "declared_authentication": [],
+      "licence_as_recorded": "MIT, declared in the document's info.license (and the repository licence)"
+    }
+  ]
+}
